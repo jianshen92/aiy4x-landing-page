@@ -1,0 +1,23 @@
+{
+  "name": "aiy4x-landing-page",
+  "version": "1.0.0",
+  "description": "AIY for X landing page for Hong Leong Bank Launchpad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server . -p 8081 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jianshen92/aiy4x-landing-page.git"
+  },
+  "author": "Yap Jian Shen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jianshen92/aiy4x-landing-page/issues"
+  },
+  "homepage": "https://github.com/jianshen92/aiy4x-landing-page#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
