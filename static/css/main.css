@@ -197,7 +197,7 @@ header.transparent-header {
 }
 
 header .header-logo {
-    background: url(/static/images/SenseiLogo4-2-2.png) center/contain no-repeat;
+    background: url(/static/images/SenseiLogo4-4.png) center/contain no-repeat;
     height: 36px;
     width: 36px
 }
@@ -1991,7 +1991,8 @@ footer .footer-links a {
         justify-content: center
     }
     .hero .hero-image {
-        margin-bottom: 20px
+        margin-bottom: 20px;
+        margin-right: 0;
     }
     .hero .content {
         margin: 0
@@ -4537,4 +4538,73 @@ main .content-body {
     pre {
         white-space: pre-wrap
     }
+}
+
+/*Custom styles*/
+.card .card-person {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card .card-person-title { 
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto Mono", monospace;
+}
+
+.card .card-content-sections {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.x-projects .hero{
+    z-index: auto;
+}
+
+.x-projects .hero .hero-image img{
+    margin: 0;
+    width: auto;
+}
+
+.hero.theme-colour-yellow{
+    background-color: #ffe056;
+}
+
+nav.full-links a{
+    border-bottom: 4px solid transparent;
+    -webkit-transition: border-bottom .2s;
+    -o-transition: border-bottom .2s;
+    transition: border-bottom .2s;
+}
+
+nav.full-links a.active{
+    border-bottom: 4px solid rgba(255,255,255,0.18);
+}
+
+/*Fonts*/
+.home-projects .home-project .project-listing .listing-text h3 {
+    font-size: 50px;
+}
+
+.x-projects .hero .content h1{
+    font-size: 50px;
+    border: none;
+}
+
+.x-projects .hero .content p{
+    font-size: 18px;
+}
+
+.hero.theme-colour-yellow .content h1, .hero.theme-colour-yellow .content h2{
+    color: black;
+}
+
+/*Spacings*/
+
+.aiy-mt-0{
+    margin-top: 0;
+}
+
+.aiy-mb-0{
+    margin-bottom: 0 !important;
 }
