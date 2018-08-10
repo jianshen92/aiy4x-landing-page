@@ -1992,10 +1992,17 @@ footer .footer-links a {
     }
     .hero .hero-image {
         margin-bottom: 20px;
-        margin-right: 0;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
     }
     .hero .content {
-        margin: 0
+        margin: 0;
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
     }
     .hero .flex-spacer {
         display: none
@@ -4570,6 +4577,10 @@ main .content-body {
     background-color: #ffe056;
 }
 
+.hero.theme-colour-red{
+    background-color: #E75B80;
+}
+
 nav.full-links a{
     border-bottom: 4px solid transparent;
     -webkit-transition: border-bottom .2s;
@@ -4595,8 +4606,22 @@ nav.full-links a.active{
     font-size: 18px;
 }
 
-.hero.theme-colour-yellow .content h1, .hero.theme-colour-yellow .content h2{
+.hero.theme-colour-yellow .content h1, .hero.theme-colour-yellow .content p{
     color: black;
+}
+
+.hero.theme-colour-red .content h1, .hero.theme-colour-red .content p{
+    color: black;
+}
+
+.hero .hero-image.image-left{
+    margin-left: 0;
+    margin-right: 80px;
+}
+
+.hero .hero-image.image-right{
+    margin-right: 0;
+    margin-left: 80px;
 }
 
 /*Spacings*/
