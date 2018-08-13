@@ -4624,6 +4624,10 @@ nav.full-links a.active{
     margin-left: 80px;
 }
 
+.footer-links span{
+    color: #707070;
+}
+
 /*Spacings*/
 
 .aiy-mt-0{
