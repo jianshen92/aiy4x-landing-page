@@ -1977,6 +1977,7 @@ footer .footer-links a {
 }
 
 @media only screen and (max-width: 701px) {
+/*@media only screen and (max-aspect-ratio: 1/1) {*/
     .hero {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -2395,6 +2396,7 @@ footer .footer-links a {
 }
 
 @media only screen and (max-aspect-ratio: 1 / 1) {
+/*@media only screen and (max-width: 701px) {*/
     .home-projects .home-project {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -4592,7 +4594,19 @@ nav.full-links a.active{
     border-bottom: 4px solid rgba(255,255,255,0.18);
 }
 
+@media only screen and (max-width: 701px) {
+    .home-projects .home-project {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+}
+
+/* Line 1979 for .hero media query
+
 /*Fonts*/
+
 .home-projects .home-project .project-listing .listing-text h3 {
     font-size: 50px;
 }
@@ -4628,6 +4642,26 @@ nav.full-links a.active{
     color: #707070;
 }
 
+@media only screen and (max-width: 701px){
+    .home-intro .intro-text h3{
+        font-size: 40px;
+        margin: 0.3em 0;
+        line-height: 1.2;
+    } 
+
+    .home-projects .home-project .project-listing .listing-text h3, .x-projects .hero .content h1{
+        font-size: 40px
+    } 
+
+    .home-projects .home-project .project-listing .listing-text p {
+        font-size: 15px;
+    }
+
+    .x-projects .hero .content p{
+        font-size: 15px;
+    }
+}
+
 /*Spacings*/
 
 .aiy-mt-0{
@@ -4637,3 +4671,5 @@ nav.full-links a.active{
 .aiy-mb-0{
     margin-bottom: 0 !important;
 }
+
+
