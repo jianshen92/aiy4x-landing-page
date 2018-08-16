@@ -4645,6 +4645,18 @@ nav.full-links a.active{
     color: black;
 }
 
+.hero .hero-image{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
 .hero .hero-image.image-left{
     margin-left: 0;
     margin-right: 80px;
