@@ -4550,6 +4550,18 @@ main .content-body {
 }
 
 /*Custom styles*/
+
+.blocks-header{
+    text-align: center;
+    font-size: 13px;
+    background: black;
+    padding: 10px 0;
+    color: white;
+    text-transform:  uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
 .card .card-person {
     font-size: 20px;
     font-weight: bold;
@@ -4603,16 +4615,21 @@ nav.full-links a.active{
     }
 }
 
+.home-projects .home-project .project-listing{
+    min-height: calc(50vh - 72px);
+    background-position: 0;
+}
+
 /* Line 1979 for .hero media query
 
 /*Fonts*/
 
 .home-projects .home-project .project-listing .listing-text h3 {
-    font-size: 50px;
+    font-size: 46px;
 }
 
 .x-projects .hero .content h1{
-    font-size: 50px;
+    font-size: 46px;
     border: none;
 }
 

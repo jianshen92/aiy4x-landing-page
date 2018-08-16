@@ -20,6 +20,7 @@
   "dependencies": {
     "gumshoejs": "github:cferdinandi/gumshoe",
     "http-server": "^0.11.1",
-    "materialize-css": "^1.0.0-rc.2"
+    "materialize-css": "^1.0.0-rc.2",
+    "typed.js": "^2.0.9"
   }
 }
