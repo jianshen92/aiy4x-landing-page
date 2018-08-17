@@ -4624,6 +4624,11 @@ nav.full-links a.active{
 
 /*Fonts*/
 
+.intro-text .subtitle a{
+    font-family: "Roboto Mono", monospace;
+    color: black; 
+}
+
 .home-projects .home-project .project-listing .listing-text h3 {
     font-size: 46px;
 }
