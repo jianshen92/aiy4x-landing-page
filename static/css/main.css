@@ -4603,7 +4603,7 @@ nav.full-links a{
 }
 
 nav.full-links a.active{
-    border-bottom: 4px solid rgba(255,255,255,0.18);
+    border-bottom: 4px solid rgba(255,255,255,0.3);
 }
 
 @media only screen and (max-width: 701px) {
