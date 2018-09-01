@@ -4620,6 +4620,10 @@ nav.full-links a.active{
     background-position: 0;
 }
 
+.made-by-you{
+    width: 80px;
+}
+
 /* Line 1979 for .hero media query
 
 /*Fonts*/
